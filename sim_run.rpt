@@ -1,0 +1,570 @@
+[DEBUG mem at init] mem[23]=0x10000893, mem[24]=0x00000013, mem[25]=0x00000013, mem[26]=0x00000013, mem[27]=0x30589073
+VCD info: dumpfile soc_dump.vcd opened for output.
+============================================================
+  SoC_Top Testbench — RV32I + APB + UART/SPI/I2C/GPIO
+============================================================
+[100000] Reset released
+[TRACE] Time=110000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=130000 | PC=0 | InstrD=b7 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=150000 | PC=4 | InstrD=10008093 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=170000 | PC=8 | InstrD=5500113 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=190000 | PC=c | InstrD=20a023 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=210000 | PC=10 | InstrD=a183 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=230000 | PC=14 | InstrD=40000237 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=250000 | PC=18 | InstrD=222023 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=270000 | PC=1c | InstrD=822283 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=0
+[TRACE] Time=290000 | PC=20 | InstrD=10020313 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=0 | mem_stall=1
+[TRACE] Time=310000 | PC=20 | InstrD=10020313 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000000 | mem_stall=1
+[TRACE] Time=330000 | PC=20 | InstrD=10020313 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000000 | mem_stall=1
+[TRACE] Time=350000 | PC=20 | InstrD=10020313 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000000 | mem_stall=0
+[TRACE] Time=370000 | PC=24 | InstrD=100393 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000000 | mem_stall=1
+[TRACE] Time=390000 | PC=24 | InstrD=100393 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000000 | mem_stall=1
+[TRACE] Time=410000 | PC=24 | InstrD=100393 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000000 | mem_stall=0
+[TRACE] Time=430000 | PC=28 | InstrD=732623 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000008 | mem_stall=1
+[TRACE] Time=450000 | PC=28 | InstrD=732623 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000008 | mem_stall=1
+[TRACE] Time=470000 | PC=28 | InstrD=732623 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000008 | mem_stall=0
+[TRACE] Time=490000 | PC=2c | InstrD=832403 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000008 | mem_stall=0
+[TRACE] Time=510000 | PC=30 | InstrD=20020493 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000008 | mem_stall=1
+[TRACE] Time=530000 | PC=30 | InstrD=20020493 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=4000010c | mem_stall=1
+[TRACE] Time=550000 | PC=30 | InstrD=20020493 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=4000010c | mem_stall=1
+[TRACE] Time=570000 | PC=30 | InstrD=20020493 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=4000010c | mem_stall=0
+[TRACE] Time=590000 | PC=34 | InstrD=7c00513 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=4000010c | mem_stall=1
+[TRACE] Time=610000 | PC=34 | InstrD=7c00513 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=4000010c | mem_stall=1
+[TRACE] Time=630000 | PC=34 | InstrD=7c00513 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=4000010c | mem_stall=0
+[TRACE] Time=650000 | PC=38 | InstrD=a4a823 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000108 | mem_stall=1
+[TRACE] Time=670000 | PC=38 | InstrD=a4a823 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000108 | mem_stall=1
+[TRACE] Time=690000 | PC=38 | InstrD=a4a823 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000108 | mem_stall=0
+[TRACE] Time=710000 | PC=3c | InstrD=84a583 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000108 | mem_stall=0
+[TRACE] Time=730000 | PC=40 | InstrD=30020613 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000108 | mem_stall=1
+[TRACE] Time=750000 | PC=40 | InstrD=30020613 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000210 | mem_stall=1
+[TRACE] Time=770000 | PC=40 | InstrD=30020613 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000210 | mem_stall=1
+[TRACE] Time=790000 | PC=40 | InstrD=30020613 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000210 | mem_stall=0
+[TRACE] Time=810000 | PC=44 | InstrD=ff00693 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000210 | mem_stall=1
+[TRACE] Time=830000 | PC=44 | InstrD=ff00693 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000210 | mem_stall=1
+[TRACE] Time=850000 | PC=44 | InstrD=ff00693 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000210 | mem_stall=0
+[TRACE] Time=870000 | PC=48 | InstrD=d62423 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000208 | mem_stall=1
+[TRACE] Time=890000 | PC=48 | InstrD=d62423 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000208 | mem_stall=1
+[TRACE] Time=910000 | PC=48 | InstrD=d62423 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000208 | mem_stall=0
+[TRACE] Time=930000 | PC=4c | InstrD=ab00713 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000208 | mem_stall=0
+[TRACE] Time=950000 | PC=50 | InstrD=e62023 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000208 | mem_stall=1
+[TRACE] Time=970000 | PC=50 | InstrD=e62023 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000308 | mem_stall=1
+[TRACE] Time=990000 | PC=50 | InstrD=e62023 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000308 | mem_stall=1
+[DEBUG GPIO WRITE] Time=0, PADDR=0x40000308, PWDATA=0x000000ff, PADDR[3:2]=10
+[TRACE] Time=1010000 | PC=50 | InstrD=e62023 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000308 | mem_stall=0
+[TRACE] Time=1030000 | PC=54 | InstrD=462783 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000308 | mem_stall=1
+[TRACE] Time=1050000 | PC=54 | InstrD=462783 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000308 | mem_stall=1
+[DEBUG GPIO WRITE] Time=0, PADDR=0x40000308, PWDATA=0x000000ff, PADDR[3:2]=10
+[TRACE] Time=1070000 | PC=54 | InstrD=462783 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000308 | mem_stall=0
+[TRACE] Time=1090000 | PC=58 | InstrD=62803 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000308 | mem_stall=1
+[TRACE] Time=1110000 | PC=58 | InstrD=62803 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000300 | mem_stall=1
+[TRACE] Time=1130000 | PC=58 | InstrD=62803 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000300 | mem_stall=1
+[DEBUG GPIO WRITE] Time=0, PADDR=0x40000300, PWDATA=0x000000ab, PADDR[3:2]=00
+[TRACE] Time=1150000 | PC=58 | InstrD=62803 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1170000 | PC=5c | InstrD=10000893 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000300 | mem_stall=1
+[TRACE] Time=1190000 | PC=5c | InstrD=10000893 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000300 | mem_stall=1
+[DEBUG GPIO WRITE] Time=0, PADDR=0x40000300, PWDATA=0x000000ab, PADDR[3:2]=00
+[TRACE] Time=1210000 | PC=5c | InstrD=10000893 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1230000 | PC=60 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000304 | mem_stall=1
+[DEBUG GPIO READ] Time=1250000, PADDR=0x40000304, PRDATA=0x0000a5a5, gpio_in=0x0000a5a5
+[TRACE] Time=1250000 | PC=60 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000304 | mem_stall=1
+[TRACE] Time=1270000 | PC=60 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=1290000 | PC=64 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000300 | mem_stall=1
+[TRACE] Time=1310000 | PC=64 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000300 | mem_stall=1
+[TRACE] Time=1330000 | PC=64 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1350000 | PC=68 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1370000 | PC=6c | InstrD=30589073 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1390000 | PC=70 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1410000 | PC=74 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1430000 | PC=78 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1450000 | PC=7c | InstrD=30502973 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1470000 | PC=80 | InstrD=800993 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1490000 | PC=84 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1510000 | PC=88 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1530000 | PC=8c | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1550000 | PC=90 | InstrD=30099073 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1570000 | PC=94 | InstrD=100a13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1590000 | PC=98 | InstrD=ba1a13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1610000 | PC=9c | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1630000 | PC=a0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1650000 | PC=a4 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1670000 | PC=a8 | InstrD=304a1073 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1690000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1710000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1730000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1750000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1770000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1790000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1810000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1830000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1850000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1870000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1890000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1910000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1930000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1950000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1970000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=1990000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2010000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2030000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2050000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2070000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2090000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2110000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2130000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2150000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2170000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2190000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2210000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2230000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2250000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2270000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2290000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2310000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2330000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2350000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2370000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2390000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2410000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2430000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2450000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2470000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2490000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2510000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2530000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2550000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2570000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2590000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2610000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2630000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2650000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2670000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2690000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2710000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2730000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2750000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2770000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2790000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2810000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2830000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2850000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2870000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2890000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2910000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2930000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2950000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2970000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=2990000 | PC=0 | InstrD=13 | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3010000 | PC=ac | InstrD=6f | TrapT=0, Target=0, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3030000 | PC=b0 | InstrD=2f83 | TrapT=1, Target=100, taken=1 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3050000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3070000 | PC=100 | InstrD=34202af3 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3090000 | PC=104 | InstrD=34102b73 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3110000 | PC=108 | InstrD=462b83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3130000 | PC=10c | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=0
+[TRACE] Time=3150000 | PC=110 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=1, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000300 | mem_stall=1
+[TRACE] Time=3170000 | PC=110 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000304 | mem_stall=1
+[TRACE] Time=3190000 | PC=110 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000304 | mem_stall=1
+[DEBUG GPIO READ] Time=3190000, PADDR=0x40000304, PRDATA=0x00005a5a, gpio_in=0x00005a5a
+[TRACE] Time=3210000 | PC=110 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=1, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3230000 | PC=114 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=1, req=0, busy=1, done=0, ready=1, psel=1, pen=0, addr=40000304 | mem_stall=1
+[DEBUG GPIO READ] Time=3250000, PADDR=0x40000304, PRDATA=0x00005a5a, gpio_in=0x00005a5a
+[TRACE] Time=3250000 | PC=114 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=2, req=0, busy=1, done=0, ready=1, psel=1, pen=1, addr=40000304 | mem_stall=1
+[TRACE] Time=3270000 | PC=114 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=1, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3290000 | PC=118 | InstrD=30200073 | TrapT=1, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3310000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3330000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3350000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3370000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3390000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3410000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3430000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3450000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3470000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3490000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3510000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3530000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3550000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3570000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3590000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3610000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3630000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3650000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3670000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3690000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3710000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3730000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3750000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3770000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3790000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3810000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3830000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3850000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3870000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3890000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3910000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3930000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3950000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3970000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=3990000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4010000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4030000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4050000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4070000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4090000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4110000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4130000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4150000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4170000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4190000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4210000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4230000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4250000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4270000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4290000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4310000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4330000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4350000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4370000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4390000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4410000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4430000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4450000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4470000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4490000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4510000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4530000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4550000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4570000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4590000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4610000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4630000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4650000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4670000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4690000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4710000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4730000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4750000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4770000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4790000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4810000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4830000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4850000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4870000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4890000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4910000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4930000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4950000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4970000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=4990000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5010000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5030000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5050000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5070000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5090000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5110000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5130000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5150000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5170000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5190000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5210000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5230000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5250000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5270000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5290000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5310000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5330000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5350000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5370000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5390000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5410000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5430000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5450000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5470000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5490000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5510000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5530000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5550000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5570000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5590000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5610000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5630000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5650000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5670000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5690000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5710000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5730000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5750000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5770000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5790000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5810000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5830000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5850000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5870000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5890000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5910000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5930000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5950000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5970000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=5990000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6010000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6030000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6050000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6070000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6090000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6110000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6130000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6150000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6170000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6190000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6210000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6230000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6250000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6270000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6290000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6310000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6330000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6350000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6370000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6390000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6410000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6430000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6450000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6470000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6490000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6510000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6530000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6550000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6570000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6590000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6610000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6630000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6650000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6670000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6690000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6710000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6730000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6750000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6770000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6790000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6810000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6830000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6850000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6870000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6890000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6910000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6930000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6950000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6970000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=6990000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7010000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7030000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7050000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7070000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7090000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7110000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7130000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7150000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7170000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7190000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7210000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7230000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7250000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7270000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7290000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7310000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7330000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7350000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7370000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7390000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7410000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7430000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7450000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7470000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7490000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7510000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7530000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7550000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7570000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7590000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7610000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7630000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7650000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7670000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7690000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7710000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7730000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7750000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7770000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7790000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7810000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7830000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7850000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7870000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7890000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7910000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7930000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7950000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7970000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=7990000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8010000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8030000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8050000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8070000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8090000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8110000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8130000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8150000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8170000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8190000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8210000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8230000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8250000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8270000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8290000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8310000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8330000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8350000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8370000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8390000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8410000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8430000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8450000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8470000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8490000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8510000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8530000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8550000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8570000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8590000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8610000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8630000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8650000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8670000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8690000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8710000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8730000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8750000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8770000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8790000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8810000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8830000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8850000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8870000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8890000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8910000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8930000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8950000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8970000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=8990000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9010000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9030000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9050000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9070000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9090000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9110000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9130000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9150000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9170000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9190000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9210000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9230000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9250000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9270000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9290000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9310000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9330000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9350000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9370000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9390000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9410000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9430000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9450000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9470000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9490000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9510000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9530000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9550000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9570000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9590000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9610000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9630000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9650000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9670000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9690000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9710000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9730000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9750000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9770000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9790000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9810000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9830000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9850000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9870000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9890000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9910000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9930000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9950000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9970000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=9990000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10010000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10030000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10050000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10070000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10090000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[DEBUG CSRs] mstatus_mie=1, mie_meie=1, mtvec=0x00000100, mepc=0x000000ac, mcause=0x8000000b, ext_irq=0, trap_taken=0
+
+------------------------------------------------------------
+  Checking Register File Results
+------------------------------------------------------------
+[PASS] x2 = 0x55 (test data) : 0x00000055
+[PASS] x3 = 0x55 (local mem load) : 0x00000055
+[PASS] x4 = 0x40000000 (UART base) : 0x40000000
+[PASS] x6 = 0x40000100 (SPI base) : 0x40000100
+[PASS] x9 = 0x40000200 (I2C base) : 0x40000200
+[PASS] x12 = 0x40000300 (GPIO base) : 0x40000300
+[PASS] x18 = 0x100 (mtvec readback) : 0x00000100
+[PASS] 000000b (mcause interrupt cause) : 0x8000000b
+[PASS] 22 = 0x000000AC (mepc return PC) : 0x000000ac
+[PASS] A (GPIO DATA_IN read in handler) : 0x00005a5a
+
+------------------------------------------------------------
+  Checking APB Protocol Signals
+------------------------------------------------------------
+[INFO] UART PREADY: 1
+[INFO] SPI  PREADY: 1
+[INFO] I2C  PREADY: 1
+[INFO] GPIO PREADY: 1
+[INFO] APB Master state (0=IDLE): 0
+
+------------------------------------------------------------
+  Checking Peripheral Registers
+------------------------------------------------------------
+[INFO] UART tx_data_reg = 0x55 (expected 0x55)
+[PASS] UART TX_DATA correctly written
+[INFO] SPI cpol = 1 (expected 1)
+[PASS] SPI CPOL correctly configured
+[INFO] I2C prescale = 124 (expected 124)
+[PASS] I2C PRESCALE correctly configured
+
+------------------------------------------------------------
+  Checking GPIO Registers
+------------------------------------------------------------
+[INFO] GPIO dir_reg = 0x00ff (expected 0x00FF)
+[PASS] GPIO DIR correctly configured
+[INFO] GPIO data_out_reg = 0x00ab (expected 0x00AB)
+[PASS] GPIO DATA_OUT correctly written
+[INFO] gpio_out = 0x00ab (expected 0x00AB)
+[PASS] GPIO output pins correct
+[INFO] gpio_oen = 0x00ff (expected 0x00FF)
+[PASS] GPIO output enable correct
+
+============================================================
+  RESULTS: 17 PASSED, 0 FAILED
+============================================================
+  >>> ALL TESTS PASSED <<<
+
+[TRACE] Time=10110000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10130000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10150000 | PC=0 | InstrD=13 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10170000 | PC=ac | InstrD=6f | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
+[TRACE] Time=10190000 | PC=b0 | InstrD=2f83 | TrapT=0, Target=ac, taken=0 | state=0, req=0, busy=0, done=0, ready=1, psel=0, pen=0, addr=40000304 | mem_stall=0
