@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Aug 03 13:33:58 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : rv32i_soc
+Top-level Entity Name : FPGA_Top
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 5,768 / 33,216 ( 17 % )
+    Total combinational functions : 4,943 / 33,216 ( 15 % )
+    Dedicated logic registers : 2,814 / 33,216 ( 8 % )
+Total registers : 2814
+Total pins : 144 / 475 ( 30 % )
+Total virtual pins : 0
+Total memory bits : 49,152 / 483,840 ( 10 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
